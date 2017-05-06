@@ -1,1 +1,5 @@
+# mega 2560
 SUBSYSTEMS=="usb", ATTRS{idVendor}=="2341", ATTRS{idProduct}=="0042", SYMLINK+="ttyACM%n", MODE="0666"
+
+# uno r3
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="2341", ATTRS{idProduct}=="0043", SYMLINK+="ttyACM%n", MODE="0666"
